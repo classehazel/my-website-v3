@@ -16,7 +16,6 @@ const Header = () => {
       >
         <Toolbar>
           <Button
-            href="/"
             sx={{
               "&:hover": {
                 backgroundColor: "#f1f1f1",

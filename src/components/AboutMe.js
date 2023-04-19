@@ -1,6 +1,7 @@
 import { Box, Container, Paper, Grid, Typography, Button } from "@mui/material";
 import React from "react";
 import Image from "../img/img_1.jpg";
+import ResumePdf from "../Resume.pdf";
 
 const AboutMe = () => {
   return (
@@ -71,7 +72,20 @@ const AboutMe = () => {
                     sx={{ marginLeft: 3, fontWeight: "bold" }}
                   >
                     Resume:
-                    <Button
+                    <a
+                      href={ResumePdf}
+                      download="Resume-PDF-document"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                        <Button sx={{
+                        "&:hover": {
+                          backgroundColor: "#eaeaea",
+                        },
+                        color: "grey",
+                        marginLeft: 1,
+                      }}>Download</Button>
+                      </a>
+                    {/* <Button
                       sx={{
                         "&:hover": {
                           backgroundColor: "#eaeaea",
@@ -82,7 +96,7 @@ const AboutMe = () => {
                       href="/Resume.pdf"
                     >
                       Download
-                    </Button>
+                    </Button> */}
                   </Typography>
                   <Typography
                     variant="subtitle1"
