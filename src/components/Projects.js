@@ -88,7 +88,7 @@ const Projects = () => {
                   </Typography>
                   <Box>
                     <Button
-                      href="http://192.168.1.198:64796"
+                      href="https://classehazel.github.io/my-website-v2/"
                       sx={{
                         "&:hover": {
                           backgroundColor: "#eaeaea",
@@ -174,7 +174,7 @@ const Projects = () => {
                   </Typography>
                   <Box>
                     <Button
-                      href="/"
+                      href="https://classehazel.github.io/my-website-v1/"
                       sx={{
                         "&:hover": {
                           backgroundColor: "#eaeaea",

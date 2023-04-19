@@ -26,7 +26,9 @@ const Header = () => {
               fontFamily: "Times New Roman",
             }}
           >
-            HYUNSEO CHOI
+            <Link to="aboutme" smooth={true} offset={0} duration={500}>
+              HYUNSEO CHOI
+            </Link>
           </Button>
           <Box sx={{ marginLeft: "auto" }}>
             <Button
@@ -37,8 +39,6 @@ const Header = () => {
                 color: "black",
                 fontSize: "medium",
                 fontFamily: "Times New Roman",
-                scrollBehavior: "smooth",
-                animationDuration: 500,
               }}
             >
               <Link to="aboutme" smooth={true} offset={0} duration={500}>
@@ -67,7 +67,6 @@ const Header = () => {
                 color: "black",
                 fontSize: "medium",
                 fontFamily: "Times New Roman",
-                scrollBehavior: "smooth",
               }}
             >
               <Link to="skills" smooth={true} offset={0} duration={500}>
@@ -82,7 +81,6 @@ const Header = () => {
                 color: "black",
                 fontSize: "medium",
                 fontFamily: "Times New Roman",
-                scrollBehavior: "smooth",
               }}
             >
               <Link to="contact" smooth={true} offset={50} duration={500}>
