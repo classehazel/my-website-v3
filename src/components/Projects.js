@@ -2,6 +2,7 @@ import { Box, Paper, Container, Grid, Typography, Button } from "@mui/material";
 import React from "react";
 import Image1 from "../img/img_2.jpg";
 import Image2 from "../img/img_3.jpg";
+import Image3 from "../img/img_4.jpg";
 
 const Projects = () => {
   return (
@@ -32,6 +33,93 @@ const Projects = () => {
           >
             PROJECTS
           </Typography>
+          <Grid container spacing={2} sx={{ padding: 2 }}>
+            <Grid
+              item
+              xs={4}
+              sx={{
+                alignItems: "center",
+                justifyContent: "center",
+                display: "flex",
+              }}
+            >
+              <Paper
+                sx={{
+                  backgroundImage: `url(${Image3})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  width: 250,
+                  height: 180,
+                }}
+              />
+            </Grid>
+            <Grid item xs={8}>
+              <Paper
+                sx={{
+                  width: 550,
+                  height: 220,
+                  alignItems: "center",
+                  justifyContent: "center",
+                  display: "flex",
+                  textAlign: "left",
+                }}
+                elevation={0}
+              >
+                <Box>
+                  <Typography
+                    variant="subtitle1"
+                    sx={{ marginTop: 3, marginLeft: 3, fontWeight: "bold" }}
+                  >
+                    MY PORTFOLIO WEBSITE
+                  </Typography>
+                  <Typography
+                    variant="subtitle1"
+                    sx={{ marginLeft: 3, marginRight: 3 }}
+                  >
+                    You are here right now! This is my portfolio website that
+                    displays my web developing accomplishments on a single
+                    page. I will keep updating this page as I gain more
+                    experience and acquire new skills. 
+                  </Typography>
+                  <Typography
+                    variant="subtitle1"
+                    sx={{ marginY: 1, marginLeft: 3 }}
+                  >
+                    Used: React, Javascript, JSX, MUI, HTML, CSS
+                  </Typography>
+                  <Box>
+                    <Button
+                      href="https://classehazel.github.io/my-website-v3/"
+                      sx={{
+                        "&:hover": {
+                          backgroundColor: "#eaeaea",
+                        },
+                        color: "grey",
+                        marginBottom: 2,
+                        marginLeft: 33,
+                      }}
+                    >
+                      View Website
+                    </Button>
+                    <Button
+                      href="https://github.com/classehazel/my-website-v3"
+                      sx={{
+                        "&:hover": {
+                          backgroundColor: "#eaeaea",
+                        },
+                        color: "grey",
+                        marginBottom: 2,
+                        marginLeft: 1,
+                      }}
+                    >
+                      Source Code
+                    </Button>
+                  </Box>
+                </Box>
+              </Paper>
+            </Grid>
+          </Grid>
           <Grid container spacing={2} sx={{ padding: 2 }}>
             <Grid
               item
