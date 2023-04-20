@@ -78,9 +78,9 @@ const Projects = () => {
                     sx={{ marginLeft: 3, marginRight: 3 }}
                   >
                     You are here right now! This is my portfolio website that
-                    displays my web developing accomplishments on a single
-                    page. I will keep updating this page as I gain more
-                    experience and acquire new skills. 
+                    displays my web developing accomplishments on a single page.
+                    I will keep updating this page as I gain more experience and
+                    acquire new skills.
                   </Typography>
                   <Typography
                     variant="subtitle1"
@@ -164,9 +164,9 @@ const Projects = () => {
                     variant="subtitle1"
                     sx={{ marginLeft: 3, marginRight: 3 }}
                   >
-                    This website is to give overall information about XERCISE
-                    Fitness Club. It contains 4 different sections, such as
-                    membership fee, program, gallery, and location information.
+                    This website provides an overview of XERCISE Fitness Club,
+                    including four sections that cover membership fees,
+                    programs, gallery, and location information.
                   </Typography>
                   <Typography
                     variant="subtitle1"
@@ -250,9 +250,15 @@ const Projects = () => {
                     variant="subtitle1"
                     sx={{ marginLeft: 3, marginRight: 3 }}
                   >
-                    This website shows the products of SHOPPY, which is a
-                    virtual E-commerce business. It has products, about us,
-                    cart, log-in and sign-up features.
+                    This website showcases the products of SHOPPY, a virtual
+                    e-commerce business. It includes product listings, an 'about
+                    us' section, and login/sign-up features.
+                  </Typography>
+                  <Typography
+                    variant="subtitle1"
+                    sx={{ marginLeft: 3, marginRight: 3 }}
+                  >
+                    'Cart' page is going to be updated soon.
                   </Typography>
                   <Typography
                     variant="subtitle1"

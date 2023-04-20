@@ -60,12 +60,13 @@ const AboutMe = () => {
                 <Box>
                   <Typography variant="subtitle1" sx={{ margin: 3 }}>
                     Hi, my name is Hyunseo Choi (a.k.a Hazel) and I am a
-                    front-end developer based on Allen, Texas. I graduated Korea
-                    University, Seoul, South Korea, with Bachelor's Degree in
-                    Computer Science and Engineering on 2020. Beside coding, my
-                    interests are outdoor activities, pilates, reading books and
-                    editing videos for my own Youtube Channel. I love to learn
-                    new things which can grow myself.
+                    front-end developer based in Allen, Texas. I graduated from
+                    Korea University in Seoul, South Korea, with Bachelor's
+                    Degree in Computer Science and Engineering in 2020. Besides
+                    coding, my interests include outdoor activities, Pilates,
+                    reading books, and editing videos for my own YouTube
+                    Channel. One of my core values is self-improvement, and I
+                    keep pursuing it by learning new things whenever necessary.
                   </Typography>
                   <Typography
                     variant="subtitle1"
@@ -76,15 +77,20 @@ const AboutMe = () => {
                       href={ResumePdf}
                       download="Resume-PDF-document"
                       target="_blank"
-                      rel="noopener noreferrer">
-                        <Button sx={{
-                        "&:hover": {
-                          backgroundColor: "#eaeaea",
-                        },
-                        color: "grey",
-                        marginLeft: 1,
-                      }}>Download</Button>
-                      </a>
+                      rel="noopener noreferrer"
+                    >
+                      <Button
+                        sx={{
+                          "&:hover": {
+                            backgroundColor: "#eaeaea",
+                          },
+                          color: "grey",
+                          marginLeft: 1,
+                        }}
+                      >
+                        Download
+                      </Button>
+                    </a>
                     {/* <Button
                       sx={{
                         "&:hover": {
