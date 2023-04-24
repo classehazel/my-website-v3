@@ -90,7 +90,7 @@ const Projects = () => {
                   </Typography>
                   <Box>
                     <Button
-                      href="https://classehazel.github.io/my-website-v3/"
+                      href="http://classehazel.github.io/portfolio/"
                       sx={{
                         "&:hover": {
                           backgroundColor: "#eaeaea",
@@ -103,7 +103,7 @@ const Projects = () => {
                       View Website
                     </Button>
                     <Button
-                      href="https://github.com/classehazel/my-website-v3"
+                      href="https://github.com/classehazel/portfolio"
                       sx={{
                         "&:hover": {
                           backgroundColor: "#eaeaea",
@@ -176,7 +176,7 @@ const Projects = () => {
                   </Typography>
                   <Box>
                     <Button
-                      href="https://classehazel.github.io/my-website-v2/"
+                      href="https://classehazel.github.io/xercise-demo/"
                       sx={{
                         "&:hover": {
                           backgroundColor: "#eaeaea",
@@ -189,7 +189,7 @@ const Projects = () => {
                       View Website
                     </Button>
                     <Button
-                      href="https://github.com/classehazel/my-website-v2"
+                      href="https://github.com/classehazel/xercise-demo"
                       sx={{
                         "&:hover": {
                           backgroundColor: "#eaeaea",
@@ -268,7 +268,7 @@ const Projects = () => {
                   </Typography>
                   <Box>
                     <Button
-                      href="https://classehazel.github.io/my-website-v1/"
+                      href="https://classehazel.github.io/e-commerce-demo/"
                       sx={{
                         "&:hover": {
                           backgroundColor: "#eaeaea",
@@ -281,7 +281,7 @@ const Projects = () => {
                       View Website
                     </Button>
                     <Button
-                      href="https://github.com/classehazel/my-website-v1"
+                      href="https://github.com/classehazel/e-commerce-demo"
                       sx={{
                         "&:hover": {
                           backgroundColor: "#eaeaea",
